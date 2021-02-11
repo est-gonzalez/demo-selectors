@@ -41,3 +41,18 @@ section:only-child {
     background-color: darkslategray;
 }
 
+/* nth of type selectors - select elements based on their position as a child of that type. */
+
+p:first-of-type {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px gainsboro;
+}
+
+p:last-of-type {
+    font-size: 0.75rem;
+}
+
+p:nth-of-type(2) {
+    display: none;
+}
